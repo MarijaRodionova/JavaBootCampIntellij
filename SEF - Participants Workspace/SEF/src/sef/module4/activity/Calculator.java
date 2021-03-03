@@ -3,13 +3,13 @@
  */
 package sef.module4.activity;
 
+
 /**
  * @author 
  *
  */
 public class Calculator {
 
-	
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
 	
