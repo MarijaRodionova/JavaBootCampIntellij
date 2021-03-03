@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 /* Student_I class is the sub class of Person class
  * Attributes : school, grade
@@ -38,5 +38,5 @@ public class Student_I extends Person_I {
 		super.announce();  // calls announce() method of Person class
 		System.out.println("Inside Student Class");
 	}
-		
+
 }
