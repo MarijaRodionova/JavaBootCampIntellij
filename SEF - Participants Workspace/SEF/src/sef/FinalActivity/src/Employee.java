@@ -37,25 +37,18 @@ public class Employee {
         this.company = company;
     }
 
-    public Employee(){
-        name =  "Alfred";
-        age = 6;
-        jobTitle = "CEO";
-        company = "Google";
+    public Employee(String name,  int age, String jobTitle, String company){
+        this.name =  name;
+        this.age = age;
+        this.jobTitle = jobTitle;
+        this.company = company;
 
     }
 
     public static void main(String[] args) {
-        Employee emp = new Employee();
+        Employee emp = new Employee("Alfredo", 11, "CEO", "Google");
 
-        System.out.println("My name is " + emp.name);
-        System.out.println("My age is " + emp.age);
-        System.out.println("My job title is " + emp.jobTitle);
-        System.out.println("My company is " + emp.company);
-
-
-
-
+        System.out.println("My name is " + emp.name + " and i am " + emp.age + " years old. I work as a " + emp.jobTitle + " in a company " + emp.company + ".");
     }
 
 
